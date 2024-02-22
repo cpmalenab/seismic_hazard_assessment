@@ -10,6 +10,22 @@ The following libraries were used in the simulation:
 
 The United States Geological Survey (USGS) is an agency that monitors natural hazards around the world including earthquakes and the data used in this study were downloaded from their [database](https://earthquake.usgs.gov/earthquakes/).
 
+The figure below shows the effect of varying the number of trials to the smoothness of the curve.
+
+<p align="center">
+  <img src="https://github.com/cpmalenab/seismic_hazard_assessment/blob/main/images/simulation.PNG">
+</p>
+<p align="center">Figure. Monte Carlo Simulation with Varying Number of Trials</p>
+
+The plot of hazard curves with varying number of years show that at lower probabilities of exceedance (more rare events), the tail end of the graph is not as defined as those with higher probabilities. Thus, a large number of samples is required to obtain more data points at the regions of lower probability.
+
+<p align="center">
+  <img src="https://github.com/cpmalenab/seismic_hazard_assessment/blob/main/images/annual%20hazard%20curves%20for%20different%20periods.PNG">
+</p>
+
+<p align="center">Figure. Annual Hazard Curves for Different Structural Periods (no. of years = 1,000,000)</p>
+
+To view the full documentation and implementation of the project, please visit this [notebook](https://nbviewer.org/github/cpmalenab/seismic_hazard_assessment/blob/main/Seismic%20Hazard%20Assesment%20using%20Monte%20Carlo%20Simulation.ipynb).
 
 
 
